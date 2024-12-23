@@ -1,7 +1,7 @@
 # Todo List App
 
 🔥 A simple Todo List app with CRUD functionality.
-![Application Stack](./public/assets/images/video-thumbnail.png)
+![Application Stack](./public/assets/images/appStack.png)
 
 ---
 
