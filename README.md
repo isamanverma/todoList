@@ -1,66 +1,50 @@
-# Simple Todo List App with CRUD Functionality
+# Todo List App
 
-🔥 A basic yet functional Todo List application built with React, implementing CRUD operations while exploring key React concepts.
-
----
-
-## Day 1 - #D1
-
-![Todo App Day 1](./public/assets/images/day1-screenshot.png)
-
-### Key Learnings:
-
-🔥
-
-- **useState Hook**: Used to manage the state of the application.
-- **Form Keypress Event**: Enabled dynamic input handling for the creation of todos.
-
-### Features Implemented:
-
-- Basic UI setup.
-- Displaying tasks dynamically.
-- Creation of new tasks.
+🔥 A simple Todo List app with CRUD functionality.
 
 ---
 
-## Day 2 - #D2
+## Day 1: Basic Setup and Features
 
-### Demo:
+![Todo App Day 1](https://raw.githubusercontent.com/isamanverma/todoList/main/public/assets/images/day1-screenshot.png)
 
-[Screen Recording](./public/assets/videos/Todo%20List%20Screen%20Recording.mp4)
+🔥 **What was accomplished:**
 
-### Key Learnings:
-
-🔥
-
-- **Conditional Rendering**: Displaying different content based on the application state.
-- **Parent-Child Communication**:
-  - Passing props from parent to child for displaying items.
-  - Callback functions for making changes from child to parent.
-- **useEffect Hook**: Managing side effects with dependencies.
-- **Custom Hook (`useTodos`)**: Encapsulating logic for better reusability and separation of concerns.
-
-### Features Implemented:
-
-- Deletion of todo items.
-- Sorting of todos based on their completion status.
-- Filtering and displaying tasks conditionally.
+- Learned the `useState` Hook.
+- Implemented a basic UI.
+- Added functionality to display tasks.
+- Implemented the creation of tasks using a form and keypress events.
 
 ---
 
-## Future Enhancements
+## Day 2: Advanced Features
 
-- Edit functionality for existing tasks.
-- Integration with a backend to persist data.
-- Adding due dates and priority levels for todos.
+[![Watch the video](https://raw.githubusercontent.com/isamanverma/todoList/main/public/assets/images/video-thumbnail.png)](https://raw.githubusercontent.com/isamanverma/todoList/main/public/assets/videos/screen-recording.mp4)
+
+🔥 **What was accomplished:**
+
+- Implemented conditional rendering.
+- Added functionality for filtering tasks.
+- RULE: Displaying items in children → passing props from parent to child & making changes from child to parent → Callback functions.
+- Used the `useEffect` hook with dependencies.
+- Created custom hooks: `useTodos`.
+- Implemented deletion of todo items.
+- Sorted todos based on completion status.
 
 ---
 
-### Tech Stack:
+## Features
 
-- **Frontend**: React, TailwindCSS.
-- **Custom Hooks**: For state management and logic encapsulation.
+- Create, Read, Update, and Delete (CRUD) functionality.
+- Dynamic input handling and real-time task updates.
+- Custom hooks for managing state efficiently.
+- Clean and intuitive UI design.
 
 ---
 
-💡 This project is a learning exercise to build a robust understanding of React fundamentals while creating a functional app.
+## How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/isamanverma/todoList.git
+   ```
