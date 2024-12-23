@@ -19,7 +19,6 @@
 
 ## Day 2: Advanced Features
 
-Watch the Demo Video:
 https://github.com/user-attachments/assets/b414163c-aff5-4bf3-91e5-5872399de79f
 
 🔥 **What was accomplished:**
