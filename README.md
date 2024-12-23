@@ -1,50 +1,66 @@
-# React + TypeScript + Vite
+# Simple Todo List App with CRUD Functionality
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔥 A basic yet functional Todo List application built with React, implementing CRUD operations while exploring key React concepts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Day 1 - #D1
 
-## Expanding the ESLint configuration
+![Todo App Day 1](./public/assets/images/day1-screenshot.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Key Learnings:
 
-- Configure the top-level `parserOptions` property like this:
+🔥
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **useState Hook**: Used to manage the state of the application.
+- **Form Keypress Event**: Enabled dynamic input handling for the creation of todos.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Features Implemented:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- Basic UI setup.
+- Displaying tasks dynamically.
+- Creation of new tasks.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+## Day 2 - #D2
+
+### Demo:
+
+[Screen Recording](./public/assets/videos/Todo%20List%20Screen%20Recording.mp4)
+
+### Key Learnings:
+
+🔥
+
+- **Conditional Rendering**: Displaying different content based on the application state.
+- **Parent-Child Communication**:
+  - Passing props from parent to child for displaying items.
+  - Callback functions for making changes from child to parent.
+- **useEffect Hook**: Managing side effects with dependencies.
+- **Custom Hook (`useTodos`)**: Encapsulating logic for better reusability and separation of concerns.
+
+### Features Implemented:
+
+- Deletion of todo items.
+- Sorting of todos based on their completion status.
+- Filtering and displaying tasks conditionally.
+
+---
+
+## Future Enhancements
+
+- Edit functionality for existing tasks.
+- Integration with a backend to persist data.
+- Adding due dates and priority levels for todos.
+
+---
+
+### Tech Stack:
+
+- **Frontend**: React, TailwindCSS.
+- **Custom Hooks**: For state management and logic encapsulation.
+
+---
+
+💡 This project is a learning exercise to build a robust understanding of React fundamentals while creating a functional app.
