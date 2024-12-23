@@ -19,7 +19,8 @@
 
 ## Day 2: Advanced Features
 
-[![Watch the video](https://raw.githubusercontent.com/isamanverma/todoList/main/public/assets/images/video-thumbnail.png)](https://raw.githubusercontent.com/isamanverma/todoList/main/public/assets/videos/screen-recording.mp4)
+Watch the Demo Video:
+https://github.com/user-attachments/assets/b414163c-aff5-4bf3-91e5-5872399de79f
 
 🔥 **What was accomplished:**
 
