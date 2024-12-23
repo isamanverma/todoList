@@ -1,7 +1,7 @@
 # Todo List App
 
 🔥 A simple Todo List app with CRUD functionality.
-![Application Stack](https://raw.githubusercontent.com/isamanverma/todoList/main/public/assets/images/video-thumbnail.png)
+![Application Stack](./public/assets/images/video-thumbnail.png)
 
 ---
 
